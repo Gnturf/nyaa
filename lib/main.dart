@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:get_it/get_it.dart';
-import 'package:nyaa/pages/login_page.dart';
 import 'package:nyaa/services/auth_service.dart';
 import 'package:nyaa/services/navigation_service.dart';
 import 'package:nyaa/utils.dart';

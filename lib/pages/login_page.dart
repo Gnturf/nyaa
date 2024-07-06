@@ -133,7 +133,7 @@ class _LoginPageState extends State<LoginPage> {
                 _loginFormKey.currentState!.save();
                 bool result = await _authService.login(email!, password!);
 
-                print("-------------------- ${result} --------------------");
+                print("-------------------- $result --------------------");
 
                 if (result) {
                   _navigationService.pushReplacementNamed("/home");
